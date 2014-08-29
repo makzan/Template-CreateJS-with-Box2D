@@ -1,0 +1,14 @@
+/* #game is the container, frame, of the game */
+#game {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+/* canvases sit inside the #game frame. It’s similar to layers. */
+#game > canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #efefef;
+}

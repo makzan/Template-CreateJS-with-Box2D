@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>{{Your Game Title Here}}</title>
+  <meta name='description' content=''>
+  <meta name='author' content=''>
+  <link rel='stylesheet' href='styles/game.css'>
+</head>
+<body>
+
+<section id='game'>
+  <canvas id='game-canvas' width='300' height='400'></canvas>
+</section>
+
+<p>This is a template of using the CreateJS HTML5 game library and the Box2D physics engine. I created this for the <a href='http://makzan.net/learning-createjs/'>Learning CreateJS</a> section in <a href='http://makzan.net/'>my website.</a></p>
+
+<!-- unless necessary, scripts are placed at the end of the body. -->
+<script src='vendors/box2dweb-2.1.a.3.min.js'></script> <!-- Box2DWeb-->
+<script src='http://code.createjs.com/easeljs-0.7.1.min.js'></script> <!-- EaselJS on CDN -->
+<script src='scripts/game.js'></script> <!-- our game logic -->
+<!-- ideally, the code above should be concaternated into one file during production. -->
+</body>
+</html>
